@@ -50,6 +50,7 @@ h1 {
   color: var(--white);
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 30px;
   animation-name: blink;
   animation-duration: 1s;
   animation-iteration-count: infinite;
@@ -64,4 +65,9 @@ h1 {
   to {
     filter: brightness(0);
   }
+}
+
+p {
+  font-size: 0.875rem;
+  color: var(--white);
 }
