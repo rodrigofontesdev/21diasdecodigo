@@ -61,8 +61,10 @@ export default function Home() {
           break;
         case "−":
           result = subtract(Number(calc.res), Number(calc.num));
+          break;
         case "×":
           result = multiply(Number(calc.res), Number(calc.num));
+          break;
         case "÷":
           result = divide(Number(calc.res), Number(calc.num));
           break;
@@ -131,8 +133,6 @@ export default function Home() {
   const equal = () => {};
 
   const hasValueClass = calc.num !== "" ? styles.hasValue : "";
-
-  console.log(calc, operator);
 
   return (
     <>
