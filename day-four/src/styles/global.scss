@@ -1,0 +1,42 @@
+:root {
+  --font-family-primary: "Technology Bold", sans-serif;
+  --font-family-secondary: "Aldrich", sans-serif;
+  --black-800: #242424;
+  --white: #ffffff;
+  --brown-700: #4c4145;
+  --gray-400: #929582;
+  --gray-500: #7b7b7b;
+  --gray-800: #3e4440;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@font-face {
+  font-family: "Technology Bold";
+  src: url("../fonts/technology.bold.ttf") format("truetype");
+}
+
+body {
+  font-family: var(--font-family-secondary);
+  font-size: 1rem;
+  font-weight: 400;
+  background-color: var(--gray-500);
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
