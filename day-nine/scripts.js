@@ -2,7 +2,7 @@ const loader = () => {
   const progressBar = document.getElementsByClassName("progress")[0];
 
   let width = 1;
-  let count = setInterval(doProgress, 300);
+  let count = setInterval(doProgress, 150);
 
   function doProgress() {
     if (width >= 100) {
