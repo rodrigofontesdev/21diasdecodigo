@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>Dia 10 - 21 Dias de Código Rocketseat</title>
+</head>
+
+<body>
+    <div id="particles-js"></div>
+
+    <main>
+        <div class="infinity"></div>
+
+        <div class="logo">
+            <img src="./assets/logo-star-wars.png" alt="Logo do Star Wars" class="logo" />
+        </div>
+
+        <div class="intro">
+            <span>Episode I</span>
+            <h1>THE PHANTOM MENACE</h1>
+
+            <p>
+                Turmoil has engulfed the
+                Galactic Republic. The taxation
+                of trade routes to outlying star
+                systems is in dispute.
+            </p>
+
+            <p>
+                Hoping to resolve the matter
+                with a blockade of deadly
+                battleships, the greedy Trade
+                Federation has stopped all
+                shipping to the small planet
+                of Naboo.
+            </p>
+
+            <p>
+                While the Congress of the
+                Republic endlessly debates
+                this alarming chain of events,
+                the Supreme Chancellor has
+                secretly dispatched two Jedi
+                Knights, the guardians of
+                peace and justice in the
+                galaxy, to settle the conflict....
+            </p>
+        </div>
+    </main>
+
+    <script src="./libs/particles.min.js"></script>
+    <script>
+        particlesJS("particles-js", {
+            "particles": {
+                "number": {
+                    "value": 500,
+                    "density": {
+                        "enable": true,
+                        "value_area": 250
+                    }
+                },
+                "color": {
+                    "value": "#ffffff"
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    },
+                    "polygon": {
+                        "nb_sides": 5
+                    },
+                    "image": {
+                        "src": "http://wiki.lexisnexis.com/academic/images/f/fb/Itunes_podcast_icon_300.jpg",
+                        "width": 100,
+                        "height": 100
+                    }
+                },
+                "opacity": {
+                    "value": 0.1,
+                    "random": false,
+                    "anim": {
+                        "enable": false,
+                        "speed": 1,
+                        "opacity_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "size": {
+                    "value": 2,
+                    "random": true,
+                    "anim": {
+                        "enable": false,
+                        "speed": 40,
+                        "size_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": false,
+                    "distance": 150,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 1,
+                    "direction": "top",
+                    "random": false,
+                    "straight": true,
+                    "out_mode": "out",
+                    "bounce": false,
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 600,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "bubble"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "repulse"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 200,
+                        "line_linked": {
+                            "opacity": 1
+                        }
+                    },
+                    "bubble": {
+                        "distance": 600,
+                        "size": 2,
+                        "duration": 1,
+                        "opacity": 1,
+                        "speed": 3
+                    },
+                    "repulse": {
+                        "distance": 200,
+                        "duration": 0.4
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true
+        }
+        );
+    </script>
+</body>
+
+</html>
