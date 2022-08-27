@@ -1,0 +1,210 @@
+:root {
+  --font-family-primary: "Yantramanav", sans-serif;
+  --brown-800: #483434;
+  --brown-500: #6b4f4f;
+  --beige-500: #eed6c4;
+  --beige-200: #fff3e4;
+  --white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 728px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+body {
+  font-size: 1rem;
+  font-family: var(--font-family-primary);
+  font-weight: 400;
+  background-color: var(--beige-500);
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 15px;
+  padding-left: 15px;
+  position: relative;
+}
+
+.background-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40vh;
+  background-color: var(--brown-500);
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  color: var(--brown-800);
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+
+form {
+  max-width: 540px;
+  width: 100%;
+  background-color: var(--beige-200);
+  padding: 40px 40px 80px 40px;
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+  z-index: 1;
+}
+
+input,
+select,
+textarea {
+  outline: 2px solid transparent;
+  border: none;
+  appearance: none;
+}
+
+.form-row {
+  width: 100%;
+  display: flex;
+  column-gap: 15px;
+}
+
+.form-row .col-6 {
+  flex-basis: 50%;
+}
+
+.form-group {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-group .form-input {
+  width: 100%;
+  position: relative;
+  border-radius: 0.5rem;
+  padding: 20px 15px;
+  color: var(--brown-500);
+  transition: outline 0.1s ease-in-out;
+}
+
+.form-group .form-input:focus,
+.form-group .form-input:not(:placeholder-shown) {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.form-group .form-input:focus {
+  outline: 1px solid var(--beige-500);
+  box-shadow: 0 0 0 4px rgba(238, 214, 196, 0.4);
+}
+
+.form-group .form-input::placeholder {
+  color: transparent;
+}
+
+.form-checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  column-gap: 10px;
+  padding: 0 15px;
+}
+
+.form-checkbox .form-input-checkbox {
+  width: 1rem;
+  height: 1rem;
+  background-color: var(--white);
+  border: 1px solid var(--brown-500);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-checkbox .form-input-checkbox:checked {
+  background-color: var(--brown-500);
+  background-image: url("./assets/check.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.form-checkbox label {
+  color: var(--brown-500);
+}
+
+.form-group label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px 15px;
+  letter-spacing: 1px;
+  color: var(--brown-500);
+  z-index: 2;
+  pointer-events: none;
+  transition: all 0.1s ease-in-out;
+}
+
+.form-group .form-input:focus ~ label,
+.form-group .form-input:not(:placeholder-shown) ~ label {
+  transform: scale(0.85) translateY(-1rem) translateX(-2.8rem);
+  opacity: 0.74;
+}
+
+.forgot-password {
+  text-align: right;
+  padding: 0 15px;
+}
+
+.forgot-password a {
+  text-decoration: none;
+  color: var(--brown-500);
+}
+
+.forgot-password a:hover {
+  color: var(--brown-800);
+  text-decoration: underline;
+}
+
+.button {
+  display: block;
+  border: 0;
+  border-radius: 6px;
+  margin: 50px auto 0;
+  padding: 20px 60px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.button-primary {
+  background-color: var(--brown-500);
+  color: var(--beige-200);
+}
+
+.button-primary:hover {
+  background-color: var(--brown-800);
+  color: var(--beige-200);
+}
