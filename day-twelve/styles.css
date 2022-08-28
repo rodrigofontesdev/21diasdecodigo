@@ -1,0 +1,151 @@
+:root {
+  --font-family-primary: "Charm", cursive;
+  --black: #000000;
+  --black-800: #0d0d0d;
+  --white: #ffffff;
+  --red: #630606;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 728px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+body {
+  font-size: 1rem;
+  font-family: var(--font-family-primary);
+  font-weight: 400;
+  background-color: var(--black-800);
+  color: var(--white);
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: var(--red);
+  margin-bottom: 50px;
+}
+
+.gallery {
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.gallery-carousel {
+  width: 3000px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  transition: all 0.4s linear;
+}
+
+.gallery-carousel figure {
+  width: 25%;
+  cursor: pointer;
+  padding: 0 3px;
+}
+
+.gallery-carousel figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+figure figcaption {
+  font-size: 0.875rem;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+
+.navigation {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 30px;
+  margin-top: 40px;
+}
+
+.navigation .nav {
+  display: block;
+  font-size: 3rem;
+  line-height: 1;
+  cursor: pointer;
+  user-select: none;
+}
+
+.navigation .nav:hover {
+  color: var(--red);
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 98;
+}
+
+.modal.show {
+  display: flex;
+}
+
+.backdrop {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.86);
+  cursor: pointer;
+  z-index: 99;
+}
+
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.modal-content img {
+  display: block;
+  max-height: calc(100vh - 100px);
+}
