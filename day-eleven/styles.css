@@ -167,7 +167,7 @@ textarea {
 
 .form-group .form-input:focus ~ label,
 .form-group .form-input:not(:placeholder-shown) ~ label {
-  transform: scale(0.85) translateY(-1rem) translateX(-2.8rem);
+  transform: scale(0.85) translateY(-1rem) translateX(-2.4rem);
   opacity: 0.74;
 }
 
