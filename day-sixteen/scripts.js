@@ -1,5 +1,5 @@
 const apiBaseUrl = "https://api.themoviedb.org/3";
-const apiKey = "db5d2e5cf3243250ba7aeeacaebb75b1";
+const apiKey = ""; // Your TMDB API Key
 const language = "pt-BR";
 const imageBaseUrl = "https://image.tmdb.org/t/p/w440_and_h660_face";
 
