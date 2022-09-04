@@ -1,0 +1,181 @@
+:root {
+  --font-family-primary: "Arial", sans-serif;
+  --black: #000000;
+  --white: #ffffff;
+  --beige: #e4dccf;
+  --teal-400: #7d9d9c;
+  --teal-500: #576f72;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 728px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-size: 1rem;
+  font-family: var(--font-family-primary);
+  font-weight: 400;
+  background-color: var(--beige);
+  color: var(--black);
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+main {
+  width: 100%;
+  max-width: 920px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+form {
+  width: 100%;
+  max-width: 640px;
+  margin: 80px auto 50px auto;
+  display: flex;
+  position: relative;
+}
+
+.form-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.form-group .form-input {
+  padding: 20px 150px 20px 20px;
+  border-radius: 6px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+  font-size: 1.25rem;
+  outline: none;
+  border: none;
+}
+
+button[type="submit"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px 40px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  cursor: pointer;
+  background-color: var(--teal-400);
+  font-size: 1.25rem;
+  color: var(--white);
+  transition: background-color 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  background-color: var(--teal-500);
+}
+
+#emojis {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 20px;
+  padding-bottom: 100px;
+}
+
+#emojis .emoji {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  cursor: pointer;
+}
+
+#emojis .emoji span.code {
+  font-size: 64px;
+}
+
+#emojis .emoji > span:last-of-type {
+  display: block;
+  width: 100%;
+  font-size: 0.75rem;
+  text-align: center;
+  margin-top: 12px;
+  padding: 6px 8px;
+  background-color: var(--white);
+  border-radius: 6px;
+  cursor: default;
+}
+
+#tooltip {
+  position: fixed;
+  top: 200px;
+  right: 20px;
+  display: none;
+  visibility: hidden;
+  background-color: var(--teal-500);
+  font-weight: bold;
+  text-align: center;
+  color: var(--white);
+  padding: 25px 50px;
+  border-radius: 6px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  animation-name: fadeInUp;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  z-index: 99;
+}
+
+#tooltip.show {
+  display: block;
+  visibility: visible;
+}
+
+@keyframes fadeInUp {
+  0% {
+    top: 150px;
+    opacity: 1;
+  }
+
+  70% {
+    opacity: 1;
+  }
+
+  100% {
+    top: 50px;
+    opacity: 0;
+  }
+}
