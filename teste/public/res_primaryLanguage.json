@@ -1,0 +1,471 @@
+{
+  "basic_info": {
+    "description_header": "Olá",
+    "description": "👋 Me chamo Rodrigo Fontes, programador há mais de 6 anos, minha especialidade é PHP. Atuo como desenvolvedor back-end, é onde sou bom, testando minhas capacidades em resolver problemas. Sou uma pessoa curiosa, muito interessado, adoro aprender coisas novas e sou autoditada. Atualmente estou estudando sobre o universo do JavaScript, estou gostando muito em aprender e quero dominar essa linguagem. A médio prazo pretendo mudar minha stack para React e Node.js, tenho objetivo por me tornar back-end em JavaScript, além de desenvolvedor de aplicativos, cujo era um interesse meu há algum tempo. Me saio bem trabalhando em equipe, durante alguns anos atuei liderando uma equipe de programadores e trabalhei me comunicando diretamente com clientes por diversas oportunidades.",
+    "section_name": {
+      "about": "Sobre mim",
+      "projects": "Projetos",
+      "skills": "Habilidades",
+      "experience": "Experiências"
+    }
+  },
+  "projects": [
+    {
+      "title": "Dia 01 - Criação de Repositório",
+      "startDate": "16/08",
+      "description": "",
+      "images": ["images/portfolio/dia-01.png"],
+      "github_url": "https://github.com/rodrigofontesdev/21diasdecodigo",
+      "reels_url": "https://www.instagram.com/reel/ChV48bPjXun/?utm_source=ig_web_copy_link",
+      "technologies": [
+        {
+          "class": "devicon-git-plain",
+          "name": "Git"
+        },
+        {
+          "class": "devicon-github-original",
+          "name": "Github"
+        }
+      ]
+    },
+    {
+      "title": "Dia 02 - Hello World",
+      "startDate": "17/08",
+      "description": "",
+      "images": ["images/portfolio/dia-02.png"],
+      "github_url": "https://github.com/rodrigofontesdev/21diasdecodigo/tree/main/dia-02",
+      "reels_url": "https://www.instagram.com/tv/ChYUKogFGzE/?utm_source=ig_web_copy_link",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        }
+      ]
+    },
+    {
+      "title": "Dia 03 - Botão Animado",
+      "startDate": "18/08",
+      "description": "",
+      "images": ["images/portfolio/dia-03.png"],
+      "github_url": "https://github.com/rodrigofontesdev/21diasdecodigo/tree/main/dia-03",
+      "reels_url": "https://www.instagram.com/tv/Cha-gdvFjZu/?utm_source=ig_web_copy_link",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        }
+      ]
+    },
+    {
+      "title": "Dia 04 - Calculadora",
+      "startDate": "19/08",
+      "description": "",
+      "images": ["images/portfolio/dia-04.png"],
+      "github_url": "https://github.com/rodrigofontesdev/21diasdecodigo/tree/main/dia-04",
+      "reels_url": "https://www.instagram.com/tv/ChgRlOkFzXE/?utm_source=ig_web_copy_link",
+      "technologies": [
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-nextjs-original-wordmark",
+          "name": "Next.js"
+        }
+      ]
+    },
+    {
+      "title": "Dia 05 - Página 404",
+      "startDate": "20/08",
+      "description": "",
+      "images": ["images/portfolio/dia-05.png"],
+      "github_url": "https://github.com/rodrigofontesdev/21diasdecodigo/tree/main/dia-05",
+      "reels_url": "https://www.instagram.com/tv/ChiI87alvQh/?utm_source=ig_web_copy_link",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        }
+      ]
+    },
+    {
+      "title": "Dia 06 - Efeito Glassmorphism",
+      "startDate": "21/08",
+      "description": "",
+      "images": ["images/portfolio/dia-06.png"],
+      "github_url": "https://github.com/rodrigofontesdev/21diasdecodigo/tree/main/dia-06",
+      "reels_url": "https://www.instagram.com/tv/ChiJaNiFkwy/?utm_source=ig_web_copy_link",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        }
+      ]
+    },
+    {
+      "title": "Dia 07 - Contador",
+      "startDate": "22/08",
+      "description": "",
+      "images": ["images/portfolio/dia-07.png"],
+      "github_url": "https://github.com/rodrigofontesdev/21diasdecodigo/tree/main/dia-07",
+      "reels_url": "https://www.instagram.com/tv/Chlf6LbFz-Q/?utm_source=ig_web_copy_link",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    },
+    {
+      "title": "Dia 08 - Toggle Modo Claro / Escuro",
+      "startDate": "23/08",
+      "description": "",
+      "images": ["images/portfolio/dia-08.png"],
+      "github_url": "https://github.com/rodrigofontesdev/21diasdecodigo/tree/main/dia-08",
+      "reels_url": "https://www.instagram.com/tv/Chn0FAXF2JJ/?utm_source=ig_web_copy_link",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    },
+    {
+      "title": "Dia 09 - Animação de Loading",
+      "startDate": "24/08",
+      "description": "",
+      "images": ["images/portfolio/dia-09.png"],
+      "github_url": "https://github.com/rodrigofontesdev/21diasdecodigo/tree/main/dia-09",
+      "reels_url": "https://www.instagram.com/tv/Chqm3VOFoCl/?utm_source=ig_web_copy_link",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    },
+    {
+      "title": "Dia 10 - Utilizando Lib Particle.js",
+      "startDate": "25/08",
+      "description": "",
+      "images": ["images/portfolio/dia-10.png"],
+      "github_url": "https://github.com/rodrigofontesdev/21diasdecodigo/tree/main/dia-10",
+      "reels_url": "https://www.instagram.com/tv/ChuPCIJj5qn/?utm_source=ig_web_copy_link",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    },
+    {
+      "title": "Dia 11 - Layout Formulário de Login",
+      "startDate": "26/08",
+      "description": "",
+      "images": ["images/portfolio/dia-11.png"],
+      "github_url": "https://github.com/rodrigofontesdev/21diasdecodigo/tree/main/dia-11",
+      "reels_url": "https://www.instagram.com/tv/ChyTlj2s60L/?utm_source=ig_web_copy_link",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        }
+      ]
+    },
+    {
+      "title": "Dia 12 - Galeria de Imagens",
+      "startDate": "27/08",
+      "description": "",
+      "images": ["images/portfolio/dia-12.png"],
+      "github_url": "https://github.com/rodrigofontesdev/21diasdecodigo/tree/main/dia-12",
+      "reels_url": "https://www.instagram.com/tv/Ch0NIWOOgME/?utm_source=ig_web_copy_link",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    },
+    {
+      "title": "Dia 13 - Menu Responsivo",
+      "startDate": "28/08",
+      "description": "",
+      "images": ["images/portfolio/dia-13.png"],
+      "github_url": "https://github.com/rodrigofontesdev/21diasdecodigo/tree/main/dia-13",
+      "reels_url": "https://www.instagram.com/tv/Ch0lsn6P6D0/?utm_source=ig_web_copy_link",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    },
+    {
+      "title": "Dia 14 - Formulário de Quizzes",
+      "startDate": "29/08",
+      "description": "",
+      "images": ["images/portfolio/dia-14.png"],
+      "github_url": "https://github.com/rodrigofontesdev/21diasdecodigo/tree/main/dia-14",
+      "reels_url": "https://www.instagram.com/tv/Ch8TSGxAnya/?utm_source=ig_web_copy_link",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "ReactJS"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        }
+      ]
+    },
+    {
+      "title": "Dia 15 - Vitrine de Produtos",
+      "startDate": "30/08",
+      "description": "",
+      "images": ["images/portfolio/dia-15.png"],
+      "github_url": "https://github.com/rodrigofontesdev/21diasdecodigo/tree/main/dia-15",
+      "reels_url": "https://www.instagram.com/tv/Ch8qZqSJP1P/?utm_source=ig_web_copy_link",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        }
+      ]
+    },
+    {
+      "title": "Dia 16 - Integração Com API Pública",
+      "startDate": "31/08",
+      "description": "",
+      "images": ["images/portfolio/dia-16.png"],
+      "github_url": "https://github.com/rodrigofontesdev/21diasdecodigo/tree/main/dia-16",
+      "reels_url": "https://www.instagram.com/tv/CiBnZtYJs4I/?utm_source=ig_web_copy_link",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    },
+    {
+      "title": "Dia 17 - Captura de Eventos do Teclado",
+      "startDate": "01/09",
+      "description": "",
+      "images": ["images/portfolio/dia-17.png"],
+      "github_url": "https://github.com/rodrigofontesdev/21diasdecodigo/tree/main/dia-17",
+      "reels_url": "https://www.instagram.com/tv/CiB1V8YDLUX/?utm_source=ig_web_copy_link",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    },
+    {
+      "title": "Dia 18 - Gerador de Senhas",
+      "startDate": "02/09",
+      "description": "",
+      "images": ["images/portfolio/dia-18.png"],
+      "github_url": "https://github.com/rodrigofontesdev/21diasdecodigo/tree/main/dia-18",
+      "reels_url": "https://www.instagram.com/tv/CiEGWWHvhR0/?utm_source=ig_web_copy_link",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    },
+    {
+      "title": "Dia 19 - Utilizando API do Unsplash",
+      "startDate": "03/09",
+      "description": "",
+      "images": ["images/portfolio/dia-19.png"],
+      "github_url": "https://github.com/rodrigofontesdev/21diasdecodigo/tree/main/dia-19",
+      "reels_url": "https://www.instagram.com/tv/CiEWfA5A-8n/?utm_source=ig_web_copy_link",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    },
+    {
+      "title": "Dia 20 - Emoji Picker",
+      "startDate": "04/09",
+      "description": "",
+      "images": ["images/portfolio/dia-20.png"],
+      "github_url": "https://github.com/rodrigofontesdev/21diasdecodigo/tree/main/dia-20",
+      "reels_url": "https://www.instagram.com/tv/CiGjUYPsNvT/?utm_source=ig_web_copy_link",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    },
+    {
+      "title": "Dia 21 - Site Portfólio",
+      "startDate": "05/09",
+      "description": "",
+      "images": ["images/portfolio/dia-21.png"],
+      "github_url": "https://github.com/rodrigofontesdev/21diasdecodigo/tree/main/dia-21",
+      "reels_url": "https://www.instagram.com/tv/CiJu90QJZjJ/?utm_source=ig_web_copy_link",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "ReactJS"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML"
+        },
+        {
+          "class": "devicon-sass-original",
+          "name": "Sass"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Agência 23 Digital",
+      "title": "Desenvolvedor Back-end Pleno",
+      "years": "02.2016 - atualmente",
+      "mainTech": ["PHP, Laravel, Wordpress"],
+      "technologies": [
+        "PHP",
+        "Laravel",
+        "Wordpress",
+        "MySQL",
+        "JavaScript",
+        "Tailwind CSS",
+        "Rest API",
+        "HTML",
+        "CSS",
+        "Sass"
+      ]
+    },
+    {
+      "company": "Intermídia - Planejamento de Mídia",
+      "title": "Desenvolvedor Web Jr",
+      "years": "03.2015 - 09.2015",
+      "mainTech": ["HTML, CSS"],
+      "technologies": ["HTML", "CSS", "JavaScript"]
+    }
+  ]
+}

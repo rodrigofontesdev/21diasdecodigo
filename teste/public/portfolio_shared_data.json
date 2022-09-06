@@ -1,0 +1,92 @@
+{
+  "basic_info": {
+    "name": "Rodrigo Fontes",
+    "titles": [
+      "Desenvolvedor Back-end",
+      "Programador PHP +6 anos",
+      "Dev Team Lead"
+    ],
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/rodrigofontesdev",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/rodrigo.fnts",
+        "class": "fab fa-instagram"
+      }
+    ],
+    "image": "rodrigo-fontes.jpg"
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "PHP",
+        "class": "devicon-php-plain",
+        "level": ""
+      },
+      {
+        "name": "Laravel",
+        "class": "devicon-laravel-plain",
+        "level": ""
+      },
+      {
+        "name": "Wordpress",
+        "class": "devicon-wordpress-plain",
+        "level": ""
+      },
+      {
+        "name": "MySql",
+        "class": "devicon-mysql-plain",
+        "level": ""
+      },
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain",
+        "level": ""
+      },
+      {
+        "name": "TypeScript",
+        "class": "devicon-typescript-plain",
+        "level": ""
+      },
+      {
+        "name": "React",
+        "class": "devicon-react-original",
+        "level": ""
+      },
+      {
+        "name": "Next.js",
+        "class": "devicon-nextjs-plain-wordmark",
+        "level": ""
+      },
+      {
+        "name": "HTML 5",
+        "class": "devicon-html5-plain",
+        "level": ""
+      },
+      {
+        "name": "CSS 3",
+        "class": "devicon-css3-plain",
+        "level": ""
+      },
+      {
+        "name": "Sass",
+        "class": "devicon-sass-original",
+        "level": ""
+      },
+      {
+        "name": "Bootstrap",
+        "class": "devicon-bootstrap-plain",
+        "level": ""
+      },
+      {
+        "name": "Tailwind CSS",
+        "class": "devicon-tailwindcss-plain",
+        "level": ""
+      }
+    ]
+  }
+}
